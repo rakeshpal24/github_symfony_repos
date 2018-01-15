@@ -1,0 +1,10 @@
+#index:
+#    path: /
+#    defaults: { _controller: 'App\Controller\DefaultController::index' }
+index:
+    path: /
+    defaults: { _controller: 'App\Controller\GitController::index' }
+
+#repos_list:
+#    path: /git/repos
+#    defaults: { _controller: 'App\Controller\GitController::getRepos' }
